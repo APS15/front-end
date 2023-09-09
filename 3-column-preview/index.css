@@ -1,0 +1,123 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: relative;
+    top: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Lexend Deca;
+}
+.d1 , .d2 , .d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.d1{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.d2{
+    background-color:  hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.d3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.d1 a {
+    color: hsl(31, 77%, 52%);
+}
+.d2 a{
+    color: hsl(184, 100%, 22%);
+}
+.d3 a{
+    color: hsl(179, 100%, 13%);
+}
+.container img{
+    width: 64px;
+}
+p{
+    font-size: 15px;
+}
+.container a{
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color:  hsla(0, 0%, 100%, 0.75);
+    width: fit-content;
+}
+.container a:hover{
+    background: none;
+    border: 2px solid hsla(0, 0%, 100%, 0.75) ;
+}
+.d1 a:hover , .d2 a:hover , .d3 a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1 {
+    position: relative;
+    top: -30px;
+    font-family: Big Shoulder;
+}
+p{
+    position: relative;
+    top: -40px;
+}
+@font-face {
+    font-family: Lexend Deca;
+    src: url("Fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Big Shoulder;
+    src: url("Fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf");
+}
+@media (min-width:375px) and (max-width:745px) {
+    .d1 , .d2 , .d3{
+        padding: 0px 67px;
+        width: 330px;
+        height: 420px;        
+    }
+    .d1{
+        border-radius: 5px 5px 0 0;
+    }
+    .d3{
+        border-radius: 0 0 5px 5px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container a{
+        position: relative;
+        top: -20px;
+    }
+
+}
+@media (min-width:745px) and (max-width:1540px) {
+    .d1 , .d2 , .d3{
+        padding: 0px 61px;
+        width: 300px;
+        height: 500px;        
+    }
+    .container{
+        display: flex;
+    }   
+    .d1{
+        border-radius: 5px 0 0 5px;   
+    }
+    .d3{
+        border-radius: 0 5px 5px 0;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 90px;
+    }
+}
