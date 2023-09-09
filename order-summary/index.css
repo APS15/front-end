@@ -9,6 +9,11 @@
 }
 *{
     box-sizing: border-box;
+    font-family: RedHat;
+}
+@font-face {
+    font-family: RedHat;
+    src: url(font/RedHatDisplay-VariableFont_wght.ttf);
 }
 body{
     display: flex;
@@ -23,10 +28,12 @@ h1{
     text-align: center;
     margin-top: 0;
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 .p1{
     text-align: center;
     color:  hsl(224, 23%, 55%);
+    font-weight: 500;
 }
 .d1{
     width: 400px;
@@ -63,15 +70,18 @@ h1{
 .p2{
     margin: 0 0 0 3px;
     color: hsl(223, 47%, 23%);
+    font-weight: 700;
 }
 .p3{
     margin: 0 0 0 3px;
     color: hsl(224, 23%, 55%);
+    font-weight: 500;
 }
 .a1{
     display: flex;
     align-items: center;
     color: hsl(245, 75%, 52%);
+    font-weight: 700;
 }
 .d3{
     display: flex;
@@ -102,6 +112,7 @@ h1{
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     margin: 30px 0 0 0;
+    font-weight: 700;
 }
 .a3:hover{
     color: hsl(223, 47%, 23%);
